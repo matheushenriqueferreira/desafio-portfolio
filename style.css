@@ -38,7 +38,7 @@ body > div {
 .cardStyle {
   background-color: var(--bg-cards);
   border-radius: 15px;
-  padding: 35px;
+  padding: 20px;
 }
 
 .sidebar {
@@ -90,6 +90,31 @@ body > div {
   display: flex;
   align-items: center;
   gap: 1em;
+}
+
+.tecnologyContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.tecnologyContainer > div {
+  display: flex;
+  gap: .5em;
+  flex-wrap: wrap;
+}
+
+.tecnologyStyle {
+  font-size: 10px;
+  font-weight: 700;
+  width: 86px;
+  height: 24px;
+  color: var(--body-bg-color);
+  background-color: var(--bg-techs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
 }
 
 main {
