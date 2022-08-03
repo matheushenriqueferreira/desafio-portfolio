@@ -17,4 +17,10 @@ body {
   background-color: var(--body-bg-color);
   color: var(--text-color);
   font-family: 'Merriweather Sans', sans-serif;
+  padding: 40px;
+}
+
+.cardStyle {
+  background-color: var(--bg-cards);
+  border-radius: 15px;
 }
