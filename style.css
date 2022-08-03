@@ -14,13 +14,79 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
   background-color: var(--body-bg-color);
   color: var(--text-color);
   font-family: 'Merriweather Sans', sans-serif;
   padding: 40px;
 }
 
+body > div {
+  display: flex;
+  gap: 1.5em;
+  height: 100vh;
+}
+
 .cardStyle {
   background-color: var(--bg-cards);
   border-radius: 15px;
+  padding: 15px;
+}
+
+.sidebar {
+  display: flex;
+  flex-basis: 25%;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.sidebar div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.sidebar div:first-child > img {
+  width: 128px;
+  height: 128px;
+  border: 2px #00FF00 solid;
+  border-radius: 50%;
+}
+
+.sidebar div:first-child > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: .5em;
+}
+
+#userName {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+#userBio {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  margin-top: auto;
+  flex: 1;
+  justify-content: center;
+  height: 0;
+}
+
+footer > p {
+  font-size: 14px;
+  font-weight: 400;
 }
