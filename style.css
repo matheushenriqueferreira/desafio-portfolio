@@ -41,6 +41,11 @@ body > div {
   padding: 20px;
 }
 
+.cardTitleStyle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .sidebar {
   display: flex;
   flex-basis: 25%;
