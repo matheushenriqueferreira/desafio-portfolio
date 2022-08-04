@@ -232,6 +232,12 @@ main section:first-child div {
   font-size: 14px;
 }
 
+.cardPost div > img{
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
 footer {
   display: flex;
   margin-top: auto;
