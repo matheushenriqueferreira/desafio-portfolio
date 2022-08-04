@@ -35,17 +35,6 @@ body > div {
   height: 100vh;
 }
 
-.cardStyle {
-  background-color: var(--bg-cards);
-  border-radius: 15px;
-  padding: 20px;
-}
-
-.cardTitleStyle {
-  font-size: 20px;
-  font-weight: 700;
-}
-
 .sidebar {
   display: flex;
   flex-basis: 25%;
@@ -74,6 +63,12 @@ body > div {
   gap: .5em;
 }
 
+.cardStyle {
+  background-color: var(--bg-cards);
+  border-radius: 15px;
+  padding: 20px;
+}
+
 #userName {
   font-size: 23px;
   font-weight: 700;
@@ -97,10 +92,32 @@ body > div {
   gap: 1em;
 }
 
-.tecnologyContainer {
+.cardTitleStyle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cardList {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  padding: 0 40px;
+  font-size: 14px;
+}
+
+.cardList li p:first-of-type {
+  font-weight: 700;
+}
+
+.cardList li p:nth-child(n+2):nth-child(-n+3) {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.tecnologyContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
 }
 
 .tecnologyContainer > div {
@@ -120,6 +137,12 @@ body > div {
   align-items: center;
   justify-content: center;
   border-radius: 25px;
+}
+
+.experienceContainer {
+  display: flex;
+  gap: .5em;
+  flex-wrap: wrap;
 }
 
 main {
