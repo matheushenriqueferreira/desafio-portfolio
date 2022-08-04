@@ -235,6 +235,7 @@ main section:first-child div {
 
 .cardPost > div {
   display: flex;
+  flex-wrap: wrap;
   gap: 1em;
 }
 
