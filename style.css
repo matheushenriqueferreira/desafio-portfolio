@@ -279,7 +279,6 @@ footer {
   display: flex;
   margin-top: auto;
   justify-content: center;
-  height: 0;
 }
 
 footer > p {
